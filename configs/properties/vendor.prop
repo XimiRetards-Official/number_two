@@ -257,6 +257,7 @@ vendor.gatekeeper.is_security_level_spu=0
 
 # Graphics
 debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
 graphics.gpu.profiler.support=true
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno

@@ -256,6 +256,7 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 vendor.gatekeeper.is_security_level_spu=0
 
 # Graphics
+debug.hwui.renderer=skiagl
 graphics.gpu.profiler.support=true
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno

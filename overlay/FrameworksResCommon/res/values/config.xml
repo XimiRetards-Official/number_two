@@ -396,4 +396,7 @@
     -->
     <string name="config_screenRecorderAVCProfileLevel" translatable="false">3.1</string>
 
+    <!-- Show battery cycle count -->
+    <bool name="config_show_battery_cycle_count" translatable="false">true</bool>
+
 </resources>

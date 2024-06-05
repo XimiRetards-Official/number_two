@@ -515,6 +515,8 @@ on property:sys.boot_completed=1
     write /dev/kmsg "Boot completed "
     #Enable UFS clock scaling back
     write /sys/bus/platform/devices/1d84000.ufshc/clkscale_enable 1
+    #Turn off vblank irq immediately after turning off
+    write /sys/module/drm/parameters/vblankoffdelay -1
     #Enable UFS auto_hibern8 back
     write /sys/bus/platform/devices/1d84000.ufshc/auto_hibern8 5000
     #Enable UFS clock gating back
